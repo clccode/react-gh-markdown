@@ -18,7 +18,22 @@ textarea {
   color: white;
 }
 
+.preview-pane {
+  border: 1px solid black;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  overflow-wrap: break-word;
+  text-align: left;
+  padding: 20px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media screen and (max-width: 850px) {
+  .preview-pane {
+    max-width: 630px;
+  }
 }

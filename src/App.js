@@ -10,22 +10,30 @@ function App() {
   \`<p>You can also insert code like this</p>\`
   Here's an example of a larger code block:
   \`\`\`
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-\`\`\`
-You can make lists too:
+  {
+  "firstName": "Clark",
+  "lastName": "Kent",
+  "age": ??
+  }
+  \`\`\`
+
+  You can make lists too:
   - Wake up
   - Feed the cat
   - Code
+
   You might want to add blockquotes like this one:
+
   > I have a dream!
+  
   You can also add images:
+
   ![code image](https://live.staticflickr.com/822/40238552784_c48d2029a2_n.jpg)
+  
   **It's easy to add bold text...**
+
   *...and text in italics too.*
+
   Need to make an edit? Use ~~strikethrough~~!
   `);
 
